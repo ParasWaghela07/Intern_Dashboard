@@ -1,16 +1,94 @@
-STEPS TO RUN THE FULL STACK PROJECT IN YOUR LOCAL MACHINE  :
+# 🧑‍💻 Intern Dashboard  
+A full-stack web app for managing internship tasks and dashboards, built using **React**, **Node.js**, and **MongoDB**.
 
-Step 1 : Clone the repository using "git clone https://github.com/ParasWaghela07/Intern_Dashboard.git"
-Step 2 : move to client directory and run the following commands to install required dependencies
-         npm install (for node_modules)
-         npm install @tailwindcss/vite (for tailwind-css)
-         npm install react-router-dom (for routing)
-Step 3 : Go to server directory and run the following command to install required dependencies
-         npm init -y
-         npm install bcrypt cookie-parser cors dotenv express jsonwebtoken mongoose nodemon
-Step 4 : "dev" : "nodemon index.js" ( Paste this line into scripts in package.json file in server directory)
-Step 5 : create an ".env" file in server directory like
-        MONGO_URL=Your_Mongodb_url
-        PORT=4000
-Step 6 : open 2 terminals and run "npm run dev" in each directory "client" and "server" to start the client and server and visit localhost:5173 in browser
-  
+---
+
+## 🚀 Tech Stack  
+- **Frontend:** React.js, Tailwind CSS, React Router DOM  
+- **Backend:** Node.js, Express.js, MongoDB  
+- **Auth:** JWT, bcrypt  
+- **Other Tools:** Vite, Mongoose, Nodemon
+
+---
+
+## 📸 Screenshots  
+
+### 🔐 Login Page  
+![Login](./demo_screenshots/login.png)
+
+### 📊 Dashboard  
+![Dashboard](./demo_screenshots/dashboard.png)
+
+---
+
+## ⚙️ Steps to Run the Full Stack Project Locally  
+
+### 1. Clone the Repository  
+```bash  
+git clone https://github.com/ParasWaghela07/Intern_Dashboard.git  
+```
+
+---
+
+### 2. Set Up the Client  
+```bash  
+cd Intern_Dashboard/client  
+npm install  
+npm install @tailwindcss/vite react-router-dom  
+```
+
+---
+
+### 3. Set Up the Server  
+```bash  
+cd ../server  
+npm init -y  
+npm install bcrypt cookie-parser cors dotenv express jsonwebtoken mongoose nodemon  
+```
+
+---
+
+### 4. Add Script in `package.json` (inside server directory)  
+```json  
+"scripts": {  
+  "dev": "nodemon index.js"  
+}  
+```
+
+---
+
+### 5. Create `.env` File in `server` Folder  
+```
+MONGO_URL=your_mongodb_connection_url  
+PORT=4000  
+```
+
+---
+
+### 6. Run the App  
+
+Open **two terminals**:
+
+- Run Frontend:  
+```bash  
+cd client  
+npm run dev  
+```
+
+- Run Backend:  
+```bash  
+cd server  
+npm run dev  
+```
+
+Then open [http://localhost:5173](http://localhost:5173) in your browser.
+
+---
+
+## ✅ Live Demo (Optional)  
+[Click here to see live app](#)
+
+---
+
+## 📝 License  
+This project is for educational/demo purposes only.
