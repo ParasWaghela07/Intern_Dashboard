@@ -11,13 +11,15 @@ A full-stack web app for managing internship tasks and dashboards, built using *
 
 ---
 
-## 📸 Screenshots  
+## 📸 Screenshots
 
-### 🔐 Login Page  
-![Login](./demo_screenshots/login.png)
+### 🔐 Authentication Pages
+![Auth 1](./demo_screenshots/image1.png)  
+![Auth 2](./demo_screenshots/image2.png)  
+![Auth 3](./demo_screenshots/image3.png)
 
-### 📊 Dashboard  
-![Dashboard](./demo_screenshots/dashboard.png)
+### 📊 Dashboard & Leaderboard
+![Dashboard](./demo_screenshots/image4.png)
 
 ---
 
@@ -82,11 +84,6 @@ npm run dev
 ```
 
 Then open [http://localhost:5173](http://localhost:5173) in your browser.
-
----
-
-## ✅ Live Demo (Optional)  
-[Click here to see live app](#)
 
 ---
 
